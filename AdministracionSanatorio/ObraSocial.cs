@@ -1,8 +1,9 @@
 using System;
 
 namespace AdministracionSanatorio
-{
-    class ObraSocial{
+{// al final no uso esta clase
+    class ObraSocial
+    {
         public string nombre;
         public double montoCobertura;
 
