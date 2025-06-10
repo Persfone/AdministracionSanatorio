@@ -1,0 +1,17 @@
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\bin\Debug\net5.0\AdministracionSanatorio.exe
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\bin\Debug\net5.0\AdministracionSanatorio.deps.json
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\bin\Debug\net5.0\AdministracionSanatorio.runtimeconfig.json
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\bin\Debug\net5.0\AdministracionSanatorio.runtimeconfig.dev.json
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\bin\Debug\net5.0\AdministracionSanatorio.dll
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\bin\Debug\net5.0\AdministracionSanatorio.pdb
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.csproj.AssemblyReference.cache
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.AssemblyInfoInputs.cache
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.AssemblyInfo.cs
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.csproj.CoreCompileInputs.cache
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.sourcelink.json
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.dll
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\refint\AdministracionSanatorio.dll
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.pdb
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\AdministracionSanatorio.genruntimeconfig.cache
+C:\Users\Ciro\Source\Repos\AdministracionSanatorio\AdministracionSanatorio\obj\Debug\net5.0\ref\AdministracionSanatorio.dll

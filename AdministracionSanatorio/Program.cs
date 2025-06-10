@@ -6,6 +6,25 @@ namespace AdministracionSanatorio
 {
     class Program
     {
+        static void MostrarArteAscii()
+        {
+            string arte = @"                                                                          
+                  .--.--.                                          ___                                        
+                 /  /    '.                                      ,--.'|_                      ,--,            
+                |  :  /`. /                   ,---,              |  | :,'   ,---.    __  ,-.,--.'|    ,---.   
+                ;  |  |--`                ,-+-. /  |             :  : ' :  '   ,'\ ,' ,'/ /||  |,    '   ,'\  
+                |  :  ;_      ,--.--.    ,--.'|'   |  ,--.--.  .;__,'  /  /   /   |'  | |' |`--'_   /   /   | 
+                 \  \    `.  /       \  |   |  ,""' | /       \ |  |   |  .   ; ,. :|  |   ,',' ,'| .   ; ,. : 
+                  `----.   \.--.  .-. | |   | /  | |.--.  .-. |:__,'| :  '   | |: :'  :  /  '  | | '   | |: : 
+                  __ \  \  | \__\/: . . |   | |  | | \__\/: . .  '  : |__'   | .; :|  | '   |  | : '   | .; : 
+                 /  /`--'  / ,"" .--.; | |   | |  |/  ,"" .--.; |  |  | '.'|   :    |;  : |   '  : |_|   :    | 
+                '--'.     / /  /  ,.  | |   | |--'  /  /  ,.  |  ;  :    ;\   \  / |  , ;   |  | '.'\   \  /  
+                  `--'---' ;  :   .'   \|   |/     ;  :   .'   \ |  ,   /  `----'   ---'    ;  :    ;`----'   
+                           |  ,     .-./'---'      |  ,     .-./  ---`-'                    |  ,   /          
+                            `--`---'                `--`---'                                 ---`-'                                                                                                                                                                                    
+            ";
+            Console.WriteLine(arte);
+        }
         static void Main(string[] args)
         {
             Hospital hospital = new Hospital();
@@ -13,7 +32,8 @@ namespace AdministracionSanatorio
 
             while (!salir)
             {
-                Console.WriteLine("\n--- Menú Principal ---");
+                System.Console.Clear();
+                MostrarArteAscii();
                 Console.WriteLine("1. Dar de alta un nuevo paciente");
                 Console.WriteLine("2. Listar pacientes");
                 Console.WriteLine("3. Asignar nueva intervención a un paciente");
@@ -29,24 +49,36 @@ namespace AdministracionSanatorio
                 {
                     case "1":
                         AltaPaciente(hospital);
+                        Console.WriteLine("Presione cualquier tecla para continuar...");
+                        Console.ReadKey();
                         break;
                     case "2":
                         ListarPacientes(hospital);
+                        Console.WriteLine("Presione cualquier tecla para continuar...");
+                        Console.ReadKey();
                         break;
                     case "3":
                         AsignarIntervencion(hospital);
+                        Console.WriteLine("Presione cualquier tecla para continuar...");
+                        Console.ReadKey();
                         break;
                     case "4":
                         CalcularCostoPorDni(hospital);
+                        Console.WriteLine("Presione cualquier tecla para continuar...");
+                        Console.ReadKey();
                         break;
                     case "5":
                         ReportePendientes(hospital);
+                        Console.WriteLine("Presione cualquier tecla para continuar...");
+                        Console.ReadKey();
                         break;
                     case "6":
                         salir = true;
                         break;
                     default:
                         Console.WriteLine("Opción inválida.");
+                        Console.WriteLine("Presione cualquier tecla para continuar...");
+                        Console.ReadKey();
                         break;
                 }
             }
